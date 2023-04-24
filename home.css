@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .header .logo {
+    font-size: 13px;
+    color: rgb(223, 66, 66);
+    text-decoration: none;
+    margin-left: 5px;
+    text-align: left;
+  }
+
+  a.active {
+    background-color: skyblue;
+    color: white;
+  }
+
+
+  a:hover:not(.active){
+    background-color: black;
+    color: skyblue;
+  }
+
+    img{
+    height: 50px;
+    width: 50px;
+    margin: 10;
+  }
+  
+  .nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin-right: 20px;
+    margin-left: 300px;
+  }
+
+  .button1{
+    background-color: black; 
+    border-radius: 4px;
+    border: 1px solid skyblue;
+    color: skyblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 230px;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+
+  .button1 .login{
+    color: skyblue;
+  }
+
+  a.button1:hover{
+    color: white;
+    background-color: skyblue;
+  }
+
+  .button2{
+    background-color: black; 
+    border-radius: 4px;
+    border: 1px solid skyblue;
+    color: skyblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+
+  a.button2:hover{
+    color: white;
+    background-color: skyblue;
+  }
+
+  button:hover{
+    background-color: skyblue;
+    color: white;
+  }
+
+  .nav-items a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 580px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://i0.wp.com/aramcoholidays.com/wp-content/uploads/2022/07/goa-aramco-holidays.jpg?resize=2048%2C1280&ssl=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .intro h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .intro p {
+    font-size: 20px;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .intro button {
+    background-color: #5edaf0;
+    color: #000;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+  }
+
+  .intro button:hover{
+      color: white;
+      background-color: rgb(25, 181, 181);
+  }
+  
+  .achievements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+  }
+
+  .data1{
+    width: 450px;
+    padding: 10px;
+    border: 2px solid aqua;
+    margin: 0;
+  }
+
+  .data2{
+    width: 400px;
+    padding: 10px;
+    border: 2px solid aqua;
+    margin-left: 10px;
+  }
+
+  .data3{
+    width: 450px;
+    padding: 10px;
+    border: 2px solid aqua;
+    margin-left: 10px;
+  }
+  
+  .achievements .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+  
+  .achievements .work i {
+    width: fit-content;
+    font-size: 50px;
+    color: #333333;
+    border-radius: 50%;
+    border: 2px solid #333333;
+    padding: 12px;
+    color: white;
+    background-color: black;
+  }
+  
+  .achievements .work .work-heading {
+    font-size: 20px;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 10px 0;
+    color: white;
+  }
+
+  .achievements .work .work-heading:hover{
+    color: aqua;
+    cursor: pointer;
+  }
+  
+  .achievements .work .work-text {
+    font-size: 15px;
+    color: #585858;
+    margin: 10px 0;
+    color: white;
+  }
+    
+    .footer{
+    background:#000;
+    padding-top:20px;
+    padding-bottom: 5px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    margin: 0;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:0% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 25px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:5px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
